@@ -23,17 +23,17 @@
 class Codediff < Formula
   desc "Fast, robust, syntax-aware code diffing"
   homepage "https://github.com/ivankovic/codediff"
-  version "0.1.0"
+  version "0.1.1"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/ivankovic/codediff/releases/download/v0.1.0/codediff-aarch64-apple-darwin.tar.gz"
-      sha256 "6d63b23f7e63875fa1f551c8b392edc0150e37e25c0fa6b0d051afde39eb3560"
+      url "https://github.com/ivankovic/codediff/releases/download/v0.1.1/codediff-aarch64-apple-darwin.tar.gz"
+      sha256 "1fcfb87886e443d220e7b098b255f1491db029ba16f550c975f5beb4f54adb5c"
     end
     on_intel do
-      url "https://github.com/ivankovic/codediff/releases/download/v0.1.0/codediff-x86_64-apple-darwin.tar.gz"
-      sha256 "04d30e893f33d1018f0a42dde9e0fc7a0cecd9ca456e9e58906a4a9e55721b42"
+      url "https://github.com/ivankovic/codediff/releases/download/v0.1.1/codediff-x86_64-apple-darwin.tar.gz"
+      sha256 "c51093a4744de23c9ad13777634c8b605cfde2d36e69a59f419e55e7c1a8b90c"
     end
   end
 
@@ -41,12 +41,12 @@ class Codediff < Formula
   # glibc, or none.
   on_linux do
     on_arm do
-      url "https://github.com/ivankovic/codediff/releases/download/v0.1.0/codediff-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "681542877b8a613fb0eaa4258af8c2f4a92884f779baa5ddaf40941d2567fd30"
+      url "https://github.com/ivankovic/codediff/releases/download/v0.1.1/codediff-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e2b62d2694bb6990e868f0efb736f5a5b73d313ad62c2b49f7dbf0e8f26c6b80"
     end
     on_intel do
-      url "https://github.com/ivankovic/codediff/releases/download/v0.1.0/codediff-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "af0aebba78a939ac66e8b546fead762ee01b7de1645639dfcbbfb5ad4e905afd"
+      url "https://github.com/ivankovic/codediff/releases/download/v0.1.1/codediff-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "efeb29c940b4defc93dc8ffe9906a08e787f9e86452e6d32d5c3aa57d30a24ff"
     end
   end
 
